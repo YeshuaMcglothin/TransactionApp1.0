@@ -1,0 +1,15 @@
+2024-10-16|09:33:30|Payment for bill|Client Name|-789.0
+2024-10-16|09:43:35|Deposit amount|Client Name| 2000.0
+2024-10-16|09:45:00|Deposit amount|Client Name| 3000.0
+2024-10-16|09:45:19|Deposit amount|Client Name| 45000.0
+2024-10-16|15:20:42|Deposit amount|Vendor Name| 12000.0
+2024-10-16|15:20:54|Deposit amount|Vendor Name| 12898.0
+2024-10-16|15:21:25|Payment for bill|Vendor name|-1.0
+2024-10-17|13:48:31|Deposit amount|Vendor Name| 2300.0
+2024-10-17|13:51:53|Deposit amount|Vendor Name| 2300.0
+2024-10-17|13:53:18|Deposit amount|Vendor Name| 2300.0
+2024-10-17|13:59:54|Deposit amount|amazon| 1200.0
+2024-10-17|14:02:25|Payment for bill|amazon|-1200.0
+2024-10-17|14:19:12|Deposit amount|amazon| 1200.0
+2024-10-17|14:29:38|Deposit amount|zell| 1200.0
+2024-10-17|16:35:46|Deposit amount|Zelle| 1200.0
