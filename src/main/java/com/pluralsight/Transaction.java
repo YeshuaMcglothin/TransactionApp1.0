@@ -287,7 +287,7 @@ public class Transaction {
 
         System.out.println("\n--- Previous Month transactions ---");
         System.out.println("Date|Time|Description|Vendor|Amount");
-        System.out.println("-----------------------------------");
+
 
         try (BufferedReader reader = new BufferedReader(new FileReader("transactions.csv"))) {
             String line;
@@ -357,11 +357,11 @@ public class Transaction {
     }
 
     public static void ByVendor() {
-        System.out.println("Search by Vendor name" + "Please enter vendor name:");
+        System.out.println("Search by Vendor name" + " Please enter vendor name:");
         String vendorName = scanner.nextLine();
 
-        System.out.println("\n--- transactions ---" + vendorName);
-        System.out.println("Date|Time|Description|Vendor|Amount");
+        System.out.println("\n--- transactions ---" );
+        System.out.println(vendorName + " Transactions");
 
         try (BufferedReader reader = new BufferedReader(new FileReader("transactions.csv"))) {
             String line;
