@@ -69,7 +69,7 @@ public class Transaction {
 
                 totalBalance += depositAmount;
                 System.out.println("You've deposited: $" + depositAmount + " To " + vendorName);
-                System.out.println("Your new balance" + vendorName + " is: $" + totalBalance);
+                System.out.println("Your new balance " + vendorName + " is: $" + totalBalance);
 
                 TransactionLog("Deposit", vendorName, depositAmount );
 
