@@ -201,6 +201,7 @@ public class Transaction {
             System.out.println("An error occurred while reading the transactions file.");
             e.printStackTrace();
         }
+        ledger();
     }
 
     // reading input gathering file payments then displaying same code as all entries just moved around
@@ -219,6 +220,7 @@ public class Transaction {
             System.out.println("An error occurred while reading the transactions file.");
             e.printStackTrace();
         }
+        ledger();
     }
 
     public static void ReportScreen() {
@@ -277,6 +279,7 @@ public class Transaction {
             System.out.println("An error while reading transaction");
             e.printStackTrace();
         }
+        ReportScreen();
     }
 
     public static void PreviousMonth() {
@@ -304,6 +307,7 @@ public class Transaction {
             System.out.println("An error while reading transaction");
             e.printStackTrace();
         }
+        ReportScreen();
     }
 
     public static void YearToDate() {
@@ -328,6 +332,7 @@ public class Transaction {
             System.out.println("An error while reading transaction");
             e.printStackTrace();
         }
+        ReportScreen();
     }
 
     public static void PreviousYear() {
@@ -354,6 +359,7 @@ public class Transaction {
             System.out.println("An error while reading transaction");
             e.printStackTrace();
         }
+        ReportScreen();
     }
 
     public static void ByVendor() {
@@ -377,6 +383,7 @@ public class Transaction {
             System.out.println("An error while reading transaction");
             e.printStackTrace();
         }
+        ReportScreen();
     }
 
     public static void TransactionLog(String Type, String vendorName, double amount) throws IOException {
