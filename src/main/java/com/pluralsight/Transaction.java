@@ -130,7 +130,7 @@ public class Transaction {
 
                 System.out.println("Payment transaction has been recorded");
 
-                System.out.println("Would you like to make another payment or return to the \"Home Screen\"?");
+                System.out.println("Would you like to return to the \"Home Screen\"?");
                 System.out.println("Type 'No' to make another payment, or 'Yes' to return to the Home Screen:");
                 String optionOfReturnMenu = scanner.nextLine();
 
